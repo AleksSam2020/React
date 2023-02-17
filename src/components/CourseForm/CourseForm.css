@@ -1,0 +1,102 @@
+.container-create-course {
+  background-color: lightgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.title-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-create-course > div {
+  padding-top: 50px;
+}
+
+.title-container,
+.description-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.description-container {
+  margin-top: 20px;
+}
+
+.title-container input,
+.description-container textarea {
+  margin-top: 5px;
+}
+
+.description-container textarea {
+  height: 100px;
+}
+
+.create-add-author,
+.duration-delete-author-container {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.create-add-author > div,
+.duration-delete-author-container > div {
+  width: 40%;
+}
+.authors-container {
+  width: 30%;
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.title-add-author > span,
+.title-authors > span,
+.title-duration > span,
+.title-course-authors > span {
+  font-weight: 600;
+}
+
+.title-add-author,
+.title-authors,
+.title-duration,
+.title-course-authors {
+  text-align: center;
+}
+
+.create-add-author > div:first-child > div:nth-child(2),
+.duration-delete-author-container > div:first-child > div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+}
+
+.create-add-author > div,
+.duration-delete-author-container > div {
+  margin-top: 5px;
+}
+
+.btn-create-author {
+  width: fit-content;
+  margin: 5px auto 0;
+}
+
+.duration-delete-author-container > div:first-child > div:nth-child(3) {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.duration-delete-author-container > div:first-child > div:nth-child(3) > span {
+  font-weight: 600;
+}
+
+.empty {
+  width: fit-content;
+  margin: 15px auto 0;
+}

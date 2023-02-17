@@ -1,0 +1,55 @@
+.show-course-container {
+  background-color: lightgrey;
+  min-height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-course-container > div {
+  width: 70vh;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.show-description-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.back {
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.back span {
+  font-size: 15px;
+}
+
+.show-title-container {
+  font-size: 30px;
+  text-align: center;
+}
+
+.show-description-container > div:first-child {
+  width: 50%;
+  padding-right: 30px;
+}
+.show-description-container > div:last-child {
+  width: 50%;
+}
+.show-description-container > div:last-child div {
+  font-weight: bold;
+}
+
+.show-description-container > div:last-child div span{
+  font-weight: normal;
+}
+
+.show-description-container > div:last-child > div:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

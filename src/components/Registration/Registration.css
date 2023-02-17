@@ -1,0 +1,34 @@
+.registration-container {
+  background-color: lightgrey;
+  min-height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.registration-container button {
+  margin-top: 10px;
+}
+
+.registration {
+  font-size: 25px;
+}
+
+form > div:last-child > span {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+form > div:last-child {
+  margin-top: 10px;
+}

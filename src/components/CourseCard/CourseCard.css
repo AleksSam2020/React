@@ -1,0 +1,72 @@
+.course-card {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.main-container {
+  width: 68%;
+}
+
+.main-container > div:first-child {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.secondary-container button {
+  max-width: 100px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.secondary-container {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.secondary-container div {
+  font-weight: 600;
+}
+
+.secondary-container div:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+
+.secondary-container div span {
+  font-weight: 200;
+}
+
+.secondary-container > div:last-child {
+  margin-top: 10px;
+}
+
+.main-container > div:nth-child(2) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.secondary-container > div:last-child {
+  display: flex;
+}
+.secondary-container > div:last-child > img {
+  max-width: 24px;
+  max-height: 24px;
+  border: 1px solid black;
+  margin-left: 5px;
+  padding: 1px;
+  box-shadow: 0 0 2px 1px rgba(34, 60, 80, 0.32);
+  cursor: pointer;
+}
+
+.secondary-container > div:last-child > img:hover {
+  background-color: white;
+}

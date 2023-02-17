@@ -1,0 +1,23 @@
+.login-container {
+  background-color: lightgrey;
+  min-height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.login-container button {
+  margin-top: 10px;
+}
+
+.login-form {
+  font-size: 25px;
+}

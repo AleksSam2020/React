@@ -1,0 +1,38 @@
+.courses {
+  background-color: lightgrey;
+  min-height: 89vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.container >div:last-child {
+  margin-right: 5%;
+}
+
+.search-bar {
+  padding-left: 10px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.search-bar input{
+  width: 50%;
+  height: 30px;
+  border: 2px solid darkgrey;
+}
+.search-bar input:focus {
+  outline: none;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.63);
+}
+
+.search-bar button {
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: grey;
+}

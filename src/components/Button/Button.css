@@ -1,0 +1,18 @@
+button {
+  width: 162px;
+  height: 30px;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  font-family: Candara, serif;
+  font-weight: 600;
+  font-size: 20px;
+  box-shadow: 0 0 4px 3px rgba(34, 60, 80, 0.32);
+  border: none;
+}
+
+button:hover {
+  background-color: white;
+  outline: 1px solid #282c34;
+  color: #282c34;
+}
